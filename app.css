@@ -1,0 +1,24 @@
+body {
+  background: black;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 200px;
+
+  background: #333;
+}
+
+button {
+  flex-grow: 1;
+  font-size: 20px;
+  background: #666;
+  color: white;
+}
+
+button.active {
+  background: olivedrab;
+}
