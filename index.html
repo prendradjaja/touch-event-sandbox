@@ -6,23 +6,9 @@
   <body>
     ontouchstart:
     <div class="buttons">
-      <button ontouchstart="handleClick(this)">1</button>
-      <button ontouchstart="handleClick(this)">2</button>
-      <button ontouchstart="handleClick(this)">3</button>
-    </div>
-
-    onclick:
-    <div class="buttons">
-      <button onclick="handleClick(this)">1</button>
-      <button onclick="handleClick(this)">2</button>
-      <button onclick="handleClick(this)">3</button>
-    </div>
-
-    both:
-    <div class="buttons">
-      <button ontouchstart="handleClick(this)" onclick="handleClick(this)">1</button>
-      <button ontouchstart="handleClick(this)" onclick="handleClick(this)">2</button>
-      <button ontouchstart="handleClick(this)" onclick="handleClick(this)">3</button>
+      <button ontouchstart="handleClick(this)" ontouchend="handleRelease(this)">1</button>
+      <button ontouchstart="handleClick(this)" ontouchend="handleRelease(this)">2</button>
+      <button ontouchstart="handleClick(this)" ontouchend="handleRelease(this)">3</button>
     </div>
 
     <div id="log">
