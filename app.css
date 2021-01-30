@@ -1,8 +1,9 @@
 body {
   background: black;
+  color: white;
 }
 
-#buttons {
+.buttons {
   display: flex;
   justify-content: space-between;
 
